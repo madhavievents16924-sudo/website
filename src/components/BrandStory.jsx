@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { BUSINESS_INFO } from '../data/eventData';
-import { Sparkles, MapPin, Volume2, VolumeX, Play, Pause, Upload, Flame, RotateCcw } from 'lucide-react';
+import { Sparkles, Volume2, VolumeX, Play, Pause, Upload, RotateCcw } from 'lucide-react';
 
 export default function BrandStory() {
   const [isPlaying, setIsPlaying] = useState(true);
@@ -92,8 +92,7 @@ export default function BrandStory() {
                   <span className="tracking-wide uppercase text-[11px] text-[#7DD3FC] font-mono">
                     {isCustomVideo ? 'Custom Reel' : 'Live Kitchen Craft'}
                   </span>
-                  <span className="hidden sm:inline text-white/40">•</span>
-                  <span className="hidden sm:inline text-white/80 text-[11px] font-normal">Trithala</span>
+
                 </div>
 
                 {/* Quick Controls (Sound, Play/Pause, Upload) */}
@@ -146,31 +145,16 @@ export default function BrandStory() {
                 </button>
               )}
 
-              {/* Bottom Card: Location & Authenticity Note */}
-              <div className="absolute bottom-5 left-5 right-5 p-4 bg-[#05262B]/90 backdrop-blur-md rounded-2xl border border-[#38B6FF]/30 shadow-xl text-white z-10">
-                <div className="flex items-center justify-between">
-                  <div className="text-xs text-[#7DD3FC] font-mono uppercase tracking-widest font-bold flex items-center gap-1.5">
-                    <MapPin className="w-3.5 h-3.5 text-[#38B6FF]" />
-                    <span>Kitchen & Office Location</span>
-                  </div>
-                  {isCustomVideo && (
-                    <button
-                      onClick={handleResetVideo}
-                      className="text-[10px] text-white/70 hover:text-white flex items-center gap-1 underline underline-offset-2"
-                      title="Reset to default video"
-                    >
-                      <RotateCcw className="w-3 h-3" /> Reset
-                    </button>
-                  )}
-                </div>
-                <div className="font-heading font-bold text-sm text-white mt-1">{BUSINESS_INFO.location}</div>
-                <div className="mt-2 pt-2 border-t border-white/10 flex items-center justify-between text-[11px] text-white/70">
-                  <span className="flex items-center gap-1">
-                    <Flame className="w-3 h-3 text-[#FFB703]" /> Authentic Traditional Woodfire Banquet
-                  </span>
-                  <span className="font-mono text-[#7DD3FC]/80">Trithala, Palakkad</span>
-                </div>
-              </div>
+              {/* Reset button (custom video) */}
+              {isCustomVideo && (
+                <button
+                  onClick={handleResetVideo}
+                  className="absolute bottom-5 right-5 text-[10px] text-white/70 hover:text-white flex items-center gap-1 underline underline-offset-2 z-10"
+                  title="Reset to default video"
+                >
+                  <RotateCcw className="w-3 h-3" /> Reset
+                </button>
+              )}
             </div>
 
             {/* Aesthetic Peacock Green Accent Border */}
@@ -203,15 +187,7 @@ export default function BrandStory() {
               </p>
             </div>
 
-            {/* Serif Handwritten Accent Quote */}
-            <div className="pt-6 border-t border-[#38B6FF]/25">
-              <p className="font-serif-accent text-2xl sm:text-3xl text-[#05262B] font-medium italic">
-                "Rooted in Kerala. Crafted for your finest moments."
-              </p>
-              <p className="text-xs text-[#0D7E73] font-mono tracking-wider uppercase mt-1.5 font-bold">
-                Madhavi Events & Caterers • Trithala, Palakkad
-              </p>
-            </div>
+
 
           </div>
 
