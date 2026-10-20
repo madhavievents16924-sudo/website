@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Phone, MessageCircle, MapPin, Clock, Star, Award, ChevronDown, ChevronUp } from 'lucide-react';
 import { BUSINESS_INFO, FAQS } from '../data/eventData';
 
+const logoImg = '/images/madhavi-logo-new.png';
+
+
+
 export default function Footer({ onOpenBooking }) {
   const [openFaq, setOpenFaq] = useState(null);
 
@@ -48,15 +52,18 @@ export default function Footer({ onOpenBooking }) {
 
         {/* Footer Main Columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-16 border-b border-amber-500/20">
-          
           {/* Brand Info (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-700 p-0.5 shadow-lg">
-                <div className="w-full h-full bg-[#0d120e] rounded-full flex items-center justify-center text-2xl">
-                  🪔
-                </div>
-              </div>
+              <img
+                src={logoImg}
+                alt="Madhavi Events & Caterers Logo"
+                width={48}
+                height={48}
+                className="w-12 h-12 shrink-0 object-contain drop-shadow-md"
+              />
+
+
               <div>
                 <h3 className="font-heading font-extrabold text-xl text-white">MADHAVI</h3>
                 <div className="text-xs text-amber-400 font-medium">Events & Caterers • തൃത്താല</div>

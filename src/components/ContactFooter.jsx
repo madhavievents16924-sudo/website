@@ -1,8 +1,8 @@
 import React from 'react';
 import { Phone, MessageCircle, MapPin, Clock, Navigation, ExternalLink, Mail } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/eventData';
-import MadhaviLogo from './MadhaviLogo';
 import InstagramIcon from './InstagramIcon';
+
 
 export default function ContactFooter({ onOpenEnquiry }) {
   return (
@@ -164,17 +164,13 @@ export default function ContactFooter({ onOpenEnquiry }) {
       </div>
 
       {/* Footer Bottom Bar */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-10 flex flex-col sm:flex-row items-center justify-between gap-6 text-xs text-white/60">
-        
-        {/* Brand Logo & Tagline */}
-        <MadhaviLogo variant="light" />
-
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-10 flex items-center justify-center text-xs text-white/60">
         {/* Copyright */}
-        <div className="text-center sm:text-right">
-          © {new Date().getFullYear()} Madhavi Events & Caterers, Trithala, Palakkad. All Rights Reserved.
+        <div className="text-center">
+          © {new Date().getFullYear()} Madhavi Events &amp; Caterers, Trithala, Palakkad. All Rights Reserved.
         </div>
-
       </div>
+
 
     </footer>
   );
