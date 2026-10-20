@@ -4,6 +4,7 @@ const logoImg = '/images/madhavi-logo-new.png';
 
 export default function MadhaviLogo({ variant = 'default', className = '' }) {
   const isDarkBg = variant === 'light';
+  const isLightBg = variant === 'dark';
 
   return (
     <div className={`inline-flex items-center gap-3 group select-none ${className}`}>
@@ -13,8 +14,8 @@ export default function MadhaviLogo({ variant = 'default', className = '' }) {
         alt="Madhavi Events & Caterers Logo"
         width={48}
         height={48}
-        className={`w-10 h-10 sm:w-12 sm:h-12 shrink-0 object-contain drop-shadow-md transition-transform group-hover:scale-105 duration-300 ${
-          isDarkBg ? 'brightness-0 invert-0' : ''
+        className={`w-10 h-10 sm:w-12 sm:h-12 shrink-0 object-contain transition-transform group-hover:scale-105 duration-300 ${
+          isDarkBg ? '[mix-blend-mode:screen] brightness-125' : isLightBg ? '[mix-blend-mode:multiply]' : '[mix-blend-mode:multiply]'
         }`}
       />
 
