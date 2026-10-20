@@ -9,15 +9,19 @@ export default function MadhaviLogo({ variant = 'default', className = '' }) {
   return (
     <div className={`inline-flex items-center gap-3 group select-none ${className}`}>
       {/* Official Madhavi Logo */}
-      <img
-        src={logoImg}
-        alt="Madhavi Events & Caterers Logo"
-        width={48}
-        height={48}
-        className={`w-10 h-10 sm:w-12 sm:h-12 shrink-0 object-contain transition-transform group-hover:scale-105 duration-300 ${
-          isDarkBg ? '[mix-blend-mode:screen] brightness-125' : isLightBg ? '[mix-blend-mode:multiply]' : '[mix-blend-mode:multiply]'
+      <div
+        className={`w-10 h-10 sm:w-12 sm:h-12 shrink-0 rounded-full overflow-hidden transition-transform group-hover:scale-105 duration-300 flex items-center justify-center ${
+          isDarkBg ? 'bg-white/95' : ''
         }`}
-      />
+      >
+        <img
+          src={logoImg}
+          alt="Madhavi Events & Caterers Logo"
+          width={48}
+          height={48}
+          className="w-full h-full object-contain"
+        />
+      </div>
 
       {/* Typography */}
       <div className="flex flex-col">

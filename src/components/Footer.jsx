@@ -55,13 +55,15 @@ export default function Footer({ onOpenBooking }) {
           {/* Brand Info (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <img
-                src={logoImg}
-                alt="Madhavi Events & Caterers Logo"
-                width={48}
-                height={48}
-                className="w-12 h-12 shrink-0 object-contain drop-shadow-md"
-              />
+              <div className="w-12 h-12 shrink-0 rounded-full overflow-hidden bg-white/95 flex items-center justify-center">
+                <img
+                  src={logoImg}
+                  alt="Madhavi Events & Caterers Logo"
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-contain"
+                />
+              </div>
 
 
               <div>
