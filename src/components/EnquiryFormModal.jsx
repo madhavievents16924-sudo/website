@@ -199,7 +199,7 @@ Please confirm date availability and quotation!`;
                     <input
                       type="tel"
                       required
-                      placeholder="+91 99464 96094"
+                      placeholder="+91 89214 97995"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full bg-white border border-[#38B6FF]/30 rounded-2xl p-3.5 text-sm focus:outline-none focus:border-[#0D7E73]"

@@ -15,7 +15,7 @@ export const BUSINESS_INFO = {
   instagramUrl: "https://www.instagram.com/madhavi_wedding_company/",
   justdialRating: 4.8,
   reviewCount: 43,
-  openingHours: "Mon - Sat: 09:00 AM - 08:00 PM (Events Operated 24/7)",
+  openingHours: "Mon - Sat: 09:00 AM - 06:00 PM (Events Operated 24/7)",
   googleMapUrl: "https://maps.google.com/?q=Thrithala,Palakkad",
   justdialUrl: "https://www.justdial.com/Palakkad/Madhavi-Events-Caterers-Thrithala-Trithala/9999PX491-X491-161210133017-W7V1_BZDET"
 };
