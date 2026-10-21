@@ -39,12 +39,18 @@ export default function EnquiryFormModal({ isOpen, onClose }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitted(true);
-    try {
-      confetti({ particleCount: 90, spread: 60, origin: { y: 0.6 } });
-    } catch (err) {
-      console.log("Confetti triggered");
-    }
+    const msg = `Hello Madhavi Events & Caterers! I submitted an event enquiry:
+📌 Celebration: ${formData.eventType}
+📅 Date: ${formData.eventDate || 'TBD'}
+👥 Guests: ${formData.guestCount}
+📍 Location: ${formData.location}
+👤 Name: ${formData.name}
+📞 Phone: ${formData.phone}
+📝 Notes: ${formData.notes || 'None'}
+Please confirm date availability and quotation!`;
+
+    window.open(`https://wa.me/${BUSINESS_INFO.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+    onClose();
   };
 
   const handleWhatsAppDispatch = () => {
