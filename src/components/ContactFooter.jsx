@@ -62,17 +62,8 @@ export default function ContactFooter({ onOpenEnquiry }) {
               <div className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-[#38B6FF] shrink-0 mt-0.5" />
                 <div>
-                  <div className="font-bold text-white text-base">Madhavi Events & Caterers</div>
+                  <div className="font-bold text-white text-base">Madhavi Wedding Company</div>
                   <div className="text-white/85">{BUSINESS_INFO.location}</div>
-                  <a
-                    href={BUSINESS_INFO.googleMapUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-1 text-xs text-[#7DD3FC] hover:underline mt-1 font-semibold"
-                  >
-                    <span>View Location on Google Maps</span>
-                    <Navigation className="w-3.5 h-3.5" />
-                  </a>
                 </div>
               </div>
 
@@ -146,17 +137,7 @@ export default function ContactFooter({ onOpenEnquiry }) {
               </div>
             </div>
 
-            <div className="pt-2 flex items-center justify-between border-t border-[#38B6FF]/20">
-              <a
-                href={BUSINESS_INFO.justdialUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-xs text-[#7DD3FC] hover:text-white font-medium transition"
-              >
-                <span>Verified Justdial Listing (4.8★ Rated)</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
+
 
           </div>
 

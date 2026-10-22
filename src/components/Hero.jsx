@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ArrowRight, ChevronDown, Sparkles, MapPin } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/eventData';
 import InstagramIcon from './InstagramIcon';
+import MenuModal from './MenuModal';
 
 export default function Hero({ onOpenEnquiry }) {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
+      {menuOpen && <MenuModal onClose={() => setMenuOpen(false)} />}
       <section className="relative min-h-screen w-full flex flex-col justify-between overflow-hidden bg-[#05262B] text-white">
         
         {/* Full-Viewport Cinematic Background Image with Peacock Overlay */}
@@ -69,13 +72,13 @@ export default function Hero({ onOpenEnquiry }) {
                 <span>Visit Instagram Page</span>
               </a>
 
-              {/* Explore Work */}
-              <a
-                href="#experiences"
+              {/* Explore Menu */}
+              <button
+                onClick={() => setMenuOpen(true)}
                 className="bg-white/10 hover:bg-white/20 text-white font-medium px-6 py-4 rounded-full text-sm sm:text-base tracking-wide border border-white/20 backdrop-blur-md transition-all duration-300"
               >
                 Explore Menu & Sadya
-              </a>
+              </button>
             </div>
 
             {/* Instagram Handle Tag */}

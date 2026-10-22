@@ -2,12 +2,12 @@ export const BUSINESS_INFO = {
   name: "Madhavi Events & Caterers",
   malayalamName: "മാധവി ഈവന്റ്സ് & കാറ്ററേഴ്‌സ്",
   tagline: "Celebrations Rooted in Tradition & Taste",
-  subTagline: "Authentic Kerala flavours, thoughtful hospitality, and beautifully served moments in Palakkad & beyond.",
+  subTagline: "Authentic Kerala flavours, thoughtful hospitality, and beautifully served moments in Kerala, Tamil Nadu, Karnataka and beyond.",
   location: "Trithala, Palakkad Dist - 679 534, Kerala",
   shortLocation: "Trithala · Palakkad · Kerala",
-  phone: "+919946496094",
-  displayPhone: "+91 9946 496 094",
-  phone2: "+91 8921 497 995",
+  phone: "+918921497995",
+  displayPhone: "+91 8921 497 995",
+  phone2: "+91 9946 496 094",
   whatsapp: "918921497995",
   displayWhatsapp: "+91 8921 497 995",
   email: "vishnu.m3011@gmail.com",
@@ -123,7 +123,7 @@ export const GALLERY_EDITORIAL = [
   },
   {
     id: 3,
-    title: "Malabar & Palakkad Non-Veg Spread",
+    title: "Malabar & Non-Veg Spread",
     category: "Food",
     image: "/images/nonveg.png",
     caption: "Chicken roast, beef fry, appam, and mutton stew."
@@ -132,7 +132,7 @@ export const GALLERY_EDITORIAL = [
     id: 4,
     title: "Artisan Watermelon Sculpture",
     category: "Events",
-    image: "/images/fruitcarving.png",
+    image: "/images/fruitcarving2.png",
     caption: "Hand-carved fruit statues created by master sculptors."
   },
   {
@@ -148,13 +148,6 @@ export const GALLERY_EDITORIAL = [
     category: "Service",
     image: "/images/serving.png",
     caption: "Uniformed catering staff serving guests with traditional etiquette."
-  },
-  {
-    id: 7,
-    title: "Chef Preparation & Spices",
-    category: "Food",
-    image: "/images/kitchen.png",
-    caption: "Fresh coconut and natural spices crafted without artificial additives."
   }
 ];
 
@@ -164,7 +157,7 @@ export const VERIFIED_REVIEWS = [
     author: "Dhruvan Viper",
     rating: 5,
     date: "July 2025",
-    source: "Justdial Review",
+    source: "Google Review",
     comment: "I love this catering group. The food, the ambience, the staff — everything was awesome! Food was delicious with so many varieties like beef, chicken, mutton, veg. My favorite was the statue made out of fruits and vegetables! Fast service, no added chemicals, food was very fresh."
   },
   {
@@ -172,7 +165,7 @@ export const VERIFIED_REVIEWS = [
     author: "Varna K M",
     rating: 5,
     date: "August 2025",
-    source: "Justdial Review",
+    source: "Google Review",
     comment: "Madhavi Events & Caterers is a gem that truly stands out! Great ambience, spacious setting for large gatherings. Attentive and knowledgeable staff. The authentic cuisine is simply delicious and worth every penny!"
   },
   {
@@ -180,7 +173,7 @@ export const VERIFIED_REVIEWS = [
     author: "Vani Mohan",
     rating: 5,
     date: "August 2025",
-    source: "Justdial Review",
+    source: "Google Review",
     comment: "Exceeded my expectations! Services are very reasonably priced. The friendly representatives ensured every single detail was perfect from delicious food to seamless coordination."
   },
   {
@@ -188,7 +181,7 @@ export const VERIFIED_REVIEWS = [
     author: "Harikrishna AR",
     rating: 5,
     date: "August 2025",
-    source: "Justdial Review",
+    source: "Google Review",
     comment: "Catering team is very brilliant! They have excellent presentation skills and the food quality is top-notch."
   },
   {
@@ -196,7 +189,7 @@ export const VERIFIED_REVIEWS = [
     author: "Dananjayan",
     rating: 5,
     date: "August 2025",
-    source: "Justdial Review",
+    source: "Google Review",
     comment: "Excellent food, outstanding hospitality & highly affordable prices in Thrithala, Palakkad."
   },
   {
@@ -204,7 +197,7 @@ export const VERIFIED_REVIEWS = [
     author: "Siva",
     rating: 5,
     date: "August 2025",
-    source: "Justdial Review",
+    source: "Google Review",
     comment: "Quick service, trained staff, very welcoming. Fresh food with generous portions. Highly recommended for weddings and events!"
   }
 ];

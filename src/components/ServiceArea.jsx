@@ -4,8 +4,8 @@ import { BUSINESS_INFO } from '../data/eventData';
 
 export default function ServiceArea() {
   const regions = [
-    "Trithala & Koottanad",
-    "Palakkad Town & Suburbs",
+    "Tamil Nadu",
+    "Karnataka",
     "Pattambi & Ottapalam",
     "Shornur & Cherpulassery",
     "Thrissur District",
@@ -27,11 +27,11 @@ export default function ServiceArea() {
               </div>
               
               <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#06292D]">
-                Serving <span className="font-serif-accent text-[#0D7E73] font-normal italic">Trithala & Beyond</span>
+                Serving <span className="font-serif-accent text-[#0D7E73] font-normal italic">Kerala & Beyond</span>
               </h2>
 
               <p className="text-xs sm:text-sm text-[#486568] font-light leading-relaxed">
-                Madhavi Events & Caterers provides full-service event management and traditional catering across Palakkad, Thrissur, and surrounding Kerala districts.
+                Madhavi Events & Caterers provides full-service event management and traditional catering across Kerala, Karnataka, and Tamil Nadu.
               </p>
 
               <div className="pt-2">
