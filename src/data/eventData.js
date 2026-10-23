@@ -199,5 +199,53 @@ export const VERIFIED_REVIEWS = [
     date: "August 2025",
     source: "Google Review",
     comment: "Quick service, trained staff, very welcoming. Fresh food with generous portions. Highly recommended for weddings and events!"
+  },
+  {
+    id: 7,
+    author: "Veena Rajesh",
+    rating: 5,
+    date: "June 2026",
+    source: "Google Review",
+    comment: "Madhav Wedding Company had taken up the decorations and photo and videography during my sisters daughters' marriage in Udupi, Karnataka. I appreciate their choice of theme for stage, entrance Deco for welcome for different days, the way they had organised the entry of the bride. Small details were taken care enhancing each moment. No regret at all for our choice."
+  },
+  {
+    id: 8,
+    author: "Deepthi Mv",
+    rating: 5,
+    date: "December 2025",
+    source: "Google Review",
+    comment: "Had a great experience with the team. Great service and coordination of events ❤️"
+  },
+  {
+    id: 9,
+    author: "Bindhu P",
+    rating: 5,
+    date: "July 2026",
+    source: "Google Review",
+    comment: "Best event coordination and best service and best decoration I am so happy 🥰"
+  },
+  {
+    id: 10,
+    author: "Sreenivasan Panikkassery",
+    rating: 5,
+    date: "February 2026",
+    source: "Google Review",
+    comment: "It looks fine and impressive ambiance."
+  },
+  {
+    id: 11,
+    author: "Hemavathi S",
+    rating: 5,
+    date: "February 2026",
+    source: "Google Review",
+    comment: "Our presentation was excellent 💯 more responsible so, book the Madhavi events ✨️ ❤️"
+  },
+  {
+    id: 12,
+    author: "P Haridas",
+    rating: 5,
+    date: "October 2025",
+    source: "Google Review",
+    comment: "ഓണസദ്യ സൂപ്പർ. കാളന്റെ അളവ് അല്പം കുറഞ്ഞുപോയി എന്ന് തോന്നുന്നു. സൂപ്പർ സദ്യ. 👌🏻👌🏻👌🏻"
   }
 ];

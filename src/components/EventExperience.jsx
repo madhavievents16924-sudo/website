@@ -43,7 +43,7 @@ export default function EventExperience() {
             </span>
           </h2>
           <p className="text-white/85 text-sm font-light leading-relaxed">
-            From the first morning welcome drink to the final sweet serving of payasam, every moment is orchestrated with authentic Kerala warmth.
+            Experience the unmatched elegance of authentic Kerala dining. Served traditionally on green banana leaves with 26 handcrafted dishes, Rosematta rice, made with pure coconut oil, Adapradhaman & Palada Payasam prepared in brass Uruli vessels. Made with pure coconut oil.
           </p>
         </div>
 

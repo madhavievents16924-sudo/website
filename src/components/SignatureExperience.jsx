@@ -36,7 +36,7 @@ export default function SignatureExperience({ onOpenEnquiry }) {
 
             {/* Description */}
             <p className="text-white/85 text-sm sm:text-base leading-relaxed font-light">
-              Experience the unmatched elegance of authentic Kerala dining. Served traditionally on green banana leaves with 26 handcrafted dishes, Rosematta rice, pure coconut oil, Adapradhaman & Palada Payasam prepared in brass Uruli vessels.
+              Experience the unmatched elegance of authentic Kerala dining. Served traditionally on green banana leaves with 26 handcrafted dishes, Rosematta rice, made with pure coconut oil, Adapradhaman & Palada Payasam prepared in brass Uruli vessels.
             </p>
 
             <div className="pt-4">
